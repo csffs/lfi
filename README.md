@@ -1,7 +1,4 @@
-# lfi
-simple lfi parser with detailed dictionary for linux
-
-Description:
+# Description:
 
 The lfi parser contains a python script lfi_parce.py and a dictionary lfi.txt, 
 
