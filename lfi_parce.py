@@ -32,12 +32,11 @@ def parce_lfi(link_url):
 		
 		result_lfi = lfi_file+'\n'+request_lfi.text
 		
+		print(url)
 		print(request_lfi.text)
 		
 		result_lfi_file.write(result_lfi)
-
-			
-		print(url)	
+	
 	
 	
 
