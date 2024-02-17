@@ -1,7 +1,7 @@
 # lfi
 simple lfi parser with detailed dictionary for linux
 
-Usage :
+## Usage :
 
 lfi_parce.py contains the -h and -u options 
 
