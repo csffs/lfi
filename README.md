@@ -30,7 +30,7 @@ The options mean:
 ## Output:
 
 the results are output to the console, as well as to the file lfi_res.txt in the same directory where the script is run.
-
+Output is in the format: a link to the file, and its text
 
 
 
