@@ -11,6 +11,7 @@ lfi.txt - this dictionary contains a list of important directories by
 For example :
 
 if:
+       
        python lfi_parce.py -u 'http://test/../../..'
 
 then the addition will look like this:
